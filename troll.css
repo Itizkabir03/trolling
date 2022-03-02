@@ -1,0 +1,72 @@
+div {
+    height: 4cm;
+    width: 13cm;
+    border: 1px solid black;
+    /* line-height: 3; */
+    /* display: inline; */
+    display: inline-block;
+    visibility: hidden;
+    background-color: green;
+}
+
+#div1 {
+    position: relative;
+    left: 10cm;
+    visibility: visible;
+}
+
+button {
+    position: relative;
+    top: 30px;
+    left: 40px;
+    margin-left: 10px;
+}
+
+#div2 {
+    position: relative;
+    top: 4cm;
+    left: 9cm;
+}
+
+#div3 {
+    position: relative;
+    top: 7cm;
+    left: 3cm;
+}
+
+#div4 {
+    position: relative;
+    bottom: 1cm;
+    right: 8cm;
+}
+
+#div7 {
+    position: relative;
+    float: right;
+}
+
+#div6 {
+    position: relative;
+    top:5cm;
+    left: 2cm;
+}
+
+.head {
+    margin-left: 20px;
+}
+
+#div8{
+    /* visibility: visible; */
+    text-align: center;
+    position: relative;
+    bottom: 5cm;
+    left: 10cm;
+    align-content: center;
+}
+
+.spn {
+    position: absolute;
+    top: 1.7cm;
+    right: 3.6cm;
+    font-size: 1.5em;
+}
